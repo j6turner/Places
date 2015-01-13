@@ -37,7 +37,7 @@ up your preferred web browser and enter the following address:
 localhost:4567/
 ```
 
-Enter in....
+Enter a place that you've visited. Observe the results.
 
 Known Bugs
 ----------
