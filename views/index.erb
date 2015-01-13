@@ -1,18 +1,19 @@
 <h1>Places We've Been</h1>
 
 <p>Places:</p>
+<img src="img/eiffel_tower.jpg" alt="Picture of the eiffel tower."
+  title="Picture of the Eiffel Tower" />
 
 <ul>
-  <% @places.each() do |place| %>
+  <% @all_places.each() do |place| %>
   <li><%= place.locale() %></li>
   <% end %>
 </ul>
 
-<p>Enter a place you've visited:</p>
-
 <form action="/places" method="post">
-  <label for="place">Place</label>
-  <input id="place" name="place" type="text">
-
-  <button type="submit">Add place</button>
+  <div class="form-group">
+    <label for="locale">Enter a place you've visited:</label>
+    <input id="locale" name="locale" type="text" class="form-control">
+  </div>
+  <button type="submit" class="btn btn-info">Add</button>
 </form>
