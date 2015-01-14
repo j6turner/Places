@@ -6,3 +6,11 @@ h1 {
 img {
   float: right;
 }
+
+#locale {
+  width: 200px;
+}
+
+form {
+  display: inline;
+}
