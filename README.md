@@ -17,22 +17,23 @@ sinatra
 sinatra-contrib
 ```
 
-If you want to run the included Gemfile, enter the following statements into
+To run the included Gemfile, enter the following statements into
 the command line:
 ```ruby
 gem install bundler
 bundle
 ```
 
-At the time of initial creation of this application, Ruby version 2.2.0
-was used.
+This application was created using Ruby version 2.2.0.
 
 Usage
 -----
 
-Upon completion of the above steps in the Installation section, open
-up your preferred web browser and enter the following address:
-
+Upon completion of the above steps in the Installation section, enter the following statement into the command line:
+```ruby
+Ruby app.rb
+```
+Next, enter the following address into a Web browser:
 ```url
 localhost:4567/
 ```
@@ -42,7 +43,7 @@ Enter a place that you've visited. Observe the results.
 Known Bugs
 ----------
 
-None as of 2014-01-13.
+None as of 2015-01-13.
 
 Author
 ------
@@ -52,4 +53,4 @@ Andy Uppendahl and Julie Turner
 License
 -------
 
-MIT license.
+MIT license
